@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <section class="container">
+        <section class="main">
+            <form class="form-control">
+                <p>Task Manager</p>
+                <div class="input-fields">
+                    <input 
+                        type="text" 
+                        placeholder="e.g write notes"
+                        class="task-input"
+                    >
+                    <button type="submit" id="submit-btn" class="btn">Submit</button>
+                </div>
+                <div class="msg"></div>
+            </form>
+
+            <section class="task-container">
+                <div class="task-msg"></div>
+                <div class="tasks">
+                </div>
+            </section>
+        </section>
+    </section>
+    <!-- AXIOS cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./scripts/browser-task.js"></script>
+</body>
+
+</html>

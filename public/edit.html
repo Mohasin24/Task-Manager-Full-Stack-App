@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./css/edit.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            
+        <h2 class="heading">Edit Task</h2>
+        <div class="msg"></div>
+        <form action="#" class="form-container">
+            <p class="task-id-lable">Task Id : <span id="task-id"></span> </p>
+            <div class="edit-task">
+                <label for="inputTask">Task : </label>
+                <input type="text" id="input-task" name="inputTask">
+            </div>
+            <div class="edit-task">
+                <label for="completed">Completed : </label>
+                <input type="checkbox" id="completed" name="completed">
+            </div>
+            <div class="btn-container">
+                <button type="submit" class="btn" id="submit-btn">Update</button>
+                <button class="btn back-btn"><a href="./index.html" >Back</a></button>
+            </div>
+        </form>
+        
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./scripts/edit.js"></script>
+</body>
+
+</html>

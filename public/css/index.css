@@ -1,0 +1,114 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F2F4F8;
+}
+
+/* common css */
+
+.btn{
+    width: 100%;
+    color: white;
+    background-color: #645CFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/*  */
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    padding: 20px;
+    box-shadow: 10px 10px 50px gray;
+    margin: 50px 0;
+}
+
+.form-control p{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.input-fields{
+    display: flex;
+    gap: 2px;
+    margin-bottom: 20px;
+}
+
+.form-control input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(227, 227, 227);
+    padding: 10px 20px;
+    border-radius : 15px 0 0 0;
+    font-size: 18px;
+}
+
+.form-control button{
+    font-size: 18px;
+    width: 100px;
+    border-radius: 0 0 15px 0;
+}
+
+/* Display Task */
+
+.task-container{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 50px gray;
+}
+
+.taskItem{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.taskItem p{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.taskItem span{
+    font-weight: 600;
+}
+
+.edit-link{
+    width: 100%;
+}
+
+.delete-btn{
+    background-color: red;
+}
+
+.task-msg{
+    text-align: center;
+    font-size: 18px;
+    color: #ff0000;
+}
+
+.show-msg{
+    text-align: center;
+    font-size: 18px;
+    color: #008000;
+}
